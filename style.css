@@ -1,8 +1,16 @@
 body {
+/* Body Font */
+
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;  
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .roboto-mono-heading {
@@ -23,4 +31,18 @@ body {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+}
+
+header{
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.subtitle{
+    margin-top: 0;
+    align-self: flex-end;
+    /* display: flex;
+    flex-direction: column;
+    align-self: flex-end */
 }
